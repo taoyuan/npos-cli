@@ -32,12 +32,9 @@
     "logu": "^1.1.3",
     "mutable-buffer": "^2.0.2",
     "needs": "^1.0.2",
-    "npos": "0.0.1",
+    "npos": "0.0.2",
     "serialport": "^2.0.6",
     "yargs": "^4.3.2"
-  },
-  "optionalDependencies": {
-    "canvas": "~1.3.4"
   },
   "devDependencies": {
     "eslint": "^2.5.1",
