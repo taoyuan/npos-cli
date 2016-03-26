@@ -19,7 +19,7 @@
     "cli"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.com"
   },
   "dependencies": {
     "async": "^2.0.0-rc.2",
