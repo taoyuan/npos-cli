@@ -1,0 +1,64 @@
+{
+  "name": "npos-cli",
+  "version": "0.0.1",
+  "description": "The npos cli program",
+  "homepage": "",
+  "author": {
+    "name": "taoyuan",
+    "email": "towyuan@outlook.com",
+    "url": ""
+  },
+  "bin": {
+    "npos": "bin/npos.js"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "esc",
+    "pos",
+    "nps",
+    "cli"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "bluebird": "^3.3.4",
+    "debug": "^2.2.0",
+    "fs-extra": "^0.26.7",
+    "human-size": "^1.1.0",
+    "inquirer": "^0.12.0",
+    "lodash": "^4.6.1",
+    "logu": "^1.1.3",
+    "mutable-buffer": "^2.0.2",
+    "needs": "^1.0.2",
+    "npos": "0.0.1",
+    "serialport": "^2.0.6",
+    "yargs": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.1",
+    "eslint-config-xo-space": "^0.11.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-nsp": "^2.3.1",
+    "gulp-coveralls": "^0.1.4"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "taoyuan/npos-cli",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
