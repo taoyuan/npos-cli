@@ -36,7 +36,7 @@
     "mutable-buffer": "^2.0.3",
     "needs": "^1.0.2",
     "npos": "^0.0.6",
-    "npos-ocr": "0.0.5",
+    "npos-ocr": "^0.0.6",
     "serialport": "^2.0.6",
     "yargs": "^4.3.2"
   },
