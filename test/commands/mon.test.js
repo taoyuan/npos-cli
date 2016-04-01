@@ -13,7 +13,10 @@ describe('mon', function () {
     var raw = fs.readFileSync(s.fixtures('raster.bin'));
     var parser = npos.parser().use(mon.translate({
       tessdata: path.join(__dirname, '..', 'fixtures', 'tessdata'),
-      language: 'pos.chs.fast'
+      language: 'pos.chs.fast',
+      segline: {
+        ranges: [1]
+      }
     }));
     logger.profile('data');
     return parser.parse(raw).then(function (result) {
