@@ -1,6 +1,6 @@
 {
   "name": "npos-cli",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "The npos cli program",
   "homepage": "",
   "author": {
@@ -39,9 +39,6 @@
     "npos-ocr": "^0.0.7",
     "serialport": "^2.0.6",
     "yargs": "^4.3.2"
-  },
-  "optionalDependencies": {
-    "npos-ocr": "^0.0.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
