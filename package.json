@@ -30,7 +30,7 @@
     "iconv-lite": "^0.4.13",
     "ignore": "^3.0.14",
     "inquirer": "^0.12.0",
-    "lodash": "^4.6.1",
+    "lodash": "^4.7.0",
     "logu": "^1.1.3",
     "moment": "^2.12.0",
     "mutable-buffer": "^2.0.3",
@@ -41,7 +41,7 @@
     "yargs": "^4.3.2"
   },
   "optionalDependencies": {
-    "npos-ocr": "^0.0.5"
+    "npos-ocr": "^0.0.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
