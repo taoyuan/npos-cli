@@ -13,6 +13,7 @@ require('../lib/loader')
 
 
 process.on('SIGINT', function() {
-  console.log("Caught interrupt signal");
+  console.log();
+  console.log('Bye Bye !');
   process.exit();
 });

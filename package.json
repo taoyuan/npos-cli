@@ -35,14 +35,14 @@
     "moment": "^2.12.0",
     "mutable-buffer": "^2.0.3",
     "needs": "^1.0.2",
-    "npos": "^0.0.6",
-    "npos-ocr": "^0.0.7",
+    "npos": "^0.1.0",
     "serialport": "^2.0.6",
+    "tessocr": "0.1.1",
     "yargs": "^4.3.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.5.3",
+    "eslint": "^2.6.0",
     "eslint-config-xo-space": "^0.11.0",
     "gulp": "^3.9.1",
     "gulp-coveralls": "^0.1.4",
